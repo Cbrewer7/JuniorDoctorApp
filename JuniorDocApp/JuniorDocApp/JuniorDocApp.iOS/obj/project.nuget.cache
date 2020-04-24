@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LyH9xuPpQ4q+rwqvPp1/WVPMN6uvi2N3N2TxMmZDczFERyM1EZ6VY9DxijZFTBIJpNBATYh0klncPox18FNG7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\C-bre\\Documents\\GitHub\\JuniorDoctorApp\\JuniorDocApp\\JuniorDocApp\\JuniorDocApp.iOS\\JuniorDocApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\C-bre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
