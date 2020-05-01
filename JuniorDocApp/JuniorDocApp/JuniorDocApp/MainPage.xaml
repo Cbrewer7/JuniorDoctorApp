@@ -31,6 +31,7 @@
             </StackLayout>
 
             <BoxView 
+                
                 Color="Gray"
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"
