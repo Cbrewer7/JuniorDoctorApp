@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="JuniorDocApp.MainPage"
+             xmlns:forms="clr-namespace:MediaManager.Forms;assembly=MediaManager.Forms" xmlns:shared="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms">
+
+    <ScrollView>
+
+        <StackLayout Spacing="0" Padding="0" BackgroundColor="SteelBlue">
+
+            <Label 
+                Text="App Title"
+                FontSize="30"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Padding="0, 15, 0, 15"
+            />
+
+            <StackLayout BackgroundColor="Gray">
+
+                <Label 
+                    Text="Had a complaint?" 
+                    FontSize="20"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    Padding="0, 10, 0, 10"
+                />
+                
+            </StackLayout>
+
+            <shared:MediaPlayerElement x:Name="myVideo" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+
+            <StackLayout Padding="0, 30, 0, 30" BackgroundColor="DarkSlateBlue">
+                <Button 
+                    Text="Bullet points, Hyperlinked"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                />
+
+                <Button 
+                    Text="A Step By Step"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                />
+
+                <Button 
+                    Text="Common information"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                />
+
+            </StackLayout>
+
+            <StackLayout BackgroundColor="DarkSlateBlue">
+
+                <Label
+                    Text="Disclaimer + other info"
+                    FontSize="30"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Padding="10"
+                />
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
+
