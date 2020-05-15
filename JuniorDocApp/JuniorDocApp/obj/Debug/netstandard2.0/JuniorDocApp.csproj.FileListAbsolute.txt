@@ -1,0 +1,14 @@
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\bin\Debug\netstandard2.0\JuniorDocApp.deps.json
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\bin\Debug\netstandard2.0\JuniorDocApp.dll
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\JuniorDocApp.csprojAssemblyReference.cache
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\JuniorDocApp.AssemblyInfoInputs.cache
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\JuniorDocApp.AssemblyInfo.cs
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\bin\Debug\netstandard2.0\ref\JuniorDocApp.dll
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\bin\Debug\netstandard2.0\JuniorDocApp.pdb
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\JuniorDocApp.dll
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\ref\JuniorDocApp.dll
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\JuniorDocApp.pdb
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\JuniorDocApp.csproj.CoreCompileInputs.cache
+C:\Users\Jay  R\Desktop\PROC\JuniorDocApp\JuniorDocApp\obj\Debug\netstandard2.0\XamlC.stamp
