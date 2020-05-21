@@ -6,13 +6,13 @@
              mc:Ignorable="d"
              x:Class="JuniorDocApp.MainPage"
              xmlns:forms="clr-namespace:MediaManager.Forms;assembly=MediaManager.Forms" xmlns:shared="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms">
-
+    
     <ScrollView>
 
         <StackLayout Spacing="0" Padding="0" BackgroundColor="SteelBlue">
 
             <Label 
-                Text="App Title"
+                Text="Junior Doctors App"
                 FontSize="30"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
@@ -38,18 +38,21 @@
                     Text="Bullet points, Hyperlinked"
                     VerticalOptions="FillAndExpand"
                     HorizontalOptions="FillAndExpand"
+                    Clicked="Button_Clicked_2"
                 />
 
                 <Button 
                     Text="A Step By Step"
                     VerticalOptions="FillAndExpand"
                     HorizontalOptions="FillAndExpand"
+                    Clicked="Button_Clicked_1"
                 />
 
                 <Button 
                     Text="Common information"
                     VerticalOptions="FillAndExpand"
                     HorizontalOptions="FillAndExpand"
+                    Clicked="Button_Clicked"
                 />
 
             </StackLayout>

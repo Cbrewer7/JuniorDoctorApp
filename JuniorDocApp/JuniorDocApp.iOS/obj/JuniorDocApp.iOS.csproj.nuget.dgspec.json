@@ -58,14 +58,6 @@
               "target": "Package",
               "version": "[2.0.3, )"
             },
-            "Plugin.MediaManager": {
-              "target": "Package",
-              "version": "[0.9.7, )"
-            },
-            "Plugin.MediaManager.Forms": {
-              "target": "Package",
-              "version": "[0.9.7, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
@@ -145,14 +137,6 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "Plugin.MediaManager": {
-              "target": "Package",
-              "version": "[0.9.7, )"
-            },
-            "Plugin.MediaManager.Forms": {
-              "target": "Package",
-              "version": "[0.9.7, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

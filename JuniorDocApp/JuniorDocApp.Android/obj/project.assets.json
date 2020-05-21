@@ -68,28 +68,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Plugin.MediaManager/0.9.7": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/MediaManager.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/MediaManager.dll": {}
-        }
-      },
-      "Plugin.MediaManager.Forms/0.9.7": {
-        "type": "package",
-        "dependencies": {
-          "Plugin.MediaManager": "0.9.7",
-          "Xamarin.Forms": "4.5.0.356"
-        },
-        "compile": {
-          "lib/netstandard2.0/MediaManager.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/MediaManager.Forms.dll": {}
-        }
-      },
       "VideoLAN.LibVLC.Android/3.2.0": {
         "type": "package",
         "build": {
@@ -885,8 +863,6 @@
           "LibVLCSharp": "3.4.5",
           "LibVLCSharp.Forms": "3.4.5",
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10",
-          "Plugin.MediaManager": "0.9.7",
-          "Plugin.MediaManager.Forms": "0.9.7",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.772"
         },
@@ -1398,86 +1374,6 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
-      ]
-    },
-    "Plugin.MediaManager/0.9.7": {
-      "sha512": "IseRocqzAuPOz0nffBSvImJW5st9kA7vAzTFXmwwdSoOGcGoEzWkddccfDNcgtpfgWZUjTrdgfyNE3vCSrDYGA==",
-      "type": "package",
-      "path": "plugin.mediamanager/0.9.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "icon.png",
-        "lib/monoandroid10.0/MediaManager.dll",
-        "lib/monoandroid10.0/MediaManager.pdb",
-        "lib/monoandroid10.0/MediaManager.xml",
-        "lib/net472/MediaManager.dll",
-        "lib/net472/MediaManager.pdb",
-        "lib/net472/MediaManager.xml",
-        "lib/netstandard2.0/MediaManager.dll",
-        "lib/netstandard2.0/MediaManager.pdb",
-        "lib/netstandard2.0/MediaManager.xml",
-        "lib/tizen40/MediaManager.dll",
-        "lib/tizen40/MediaManager.pdb",
-        "lib/tizen40/MediaManager.xml",
-        "lib/uap10.0.18362/MediaManager.dll",
-        "lib/uap10.0.18362/MediaManager.pdb",
-        "lib/uap10.0.18362/MediaManager.pri",
-        "lib/uap10.0.18362/MediaManager.xml",
-        "lib/uap10.0.18362/MediaManager/MediaManager.xr.xml",
-        "lib/uap10.0.18362/MediaManager/Platforms/Uap/Video/VideoView.xaml",
-        "lib/xamarinios10/MediaManager.dll",
-        "lib/xamarinios10/MediaManager.pdb",
-        "lib/xamarinios10/MediaManager.xml",
-        "lib/xamarinmac20/MediaManager.dll",
-        "lib/xamarinmac20/MediaManager.pdb",
-        "lib/xamarinmac20/MediaManager.xml",
-        "lib/xamarintvos10/MediaManager.dll",
-        "lib/xamarintvos10/MediaManager.pdb",
-        "lib/xamarintvos10/MediaManager.xml",
-        "plugin.mediamanager.0.9.7.nupkg.sha512",
-        "plugin.mediamanager.nuspec",
-        "readme.txt"
-      ]
-    },
-    "Plugin.MediaManager.Forms/0.9.7": {
-      "sha512": "PsUYlS1A1BgZA1nC23It7kB/BiSdVlb5XNQX/wpdX36d6udGsKslhWrU7E4xnMt5Dn8yeJVtXalVt+OUCCCE5g==",
-      "type": "package",
-      "path": "plugin.mediamanager.forms/0.9.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "icon.png",
-        "lib/monoandroid10.0/MediaManager.Forms.dll",
-        "lib/monoandroid10.0/MediaManager.Forms.pdb",
-        "lib/monoandroid10.0/MediaManager.Forms.xml",
-        "lib/net472/MediaManager.Forms.dll",
-        "lib/net472/MediaManager.Forms.pdb",
-        "lib/net472/MediaManager.Forms.xml",
-        "lib/netstandard2.0/MediaManager.Forms.dll",
-        "lib/netstandard2.0/MediaManager.Forms.pdb",
-        "lib/netstandard2.0/MediaManager.Forms.xml",
-        "lib/tizen40/MediaManager.Forms.dll",
-        "lib/tizen40/MediaManager.Forms.pdb",
-        "lib/tizen40/MediaManager.Forms.xml",
-        "lib/uap10.0.18362/MediaManager.Forms.dll",
-        "lib/uap10.0.18362/MediaManager.Forms.pdb",
-        "lib/uap10.0.18362/MediaManager.Forms.pri",
-        "lib/uap10.0.18362/MediaManager.Forms.xml",
-        "lib/xamarinios10/MediaManager.Forms.dll",
-        "lib/xamarinios10/MediaManager.Forms.pdb",
-        "lib/xamarinios10/MediaManager.Forms.xml",
-        "lib/xamarinmac20/MediaManager.Forms.dll",
-        "lib/xamarinmac20/MediaManager.Forms.pdb",
-        "lib/xamarinmac20/MediaManager.Forms.xml",
-        "lib/xamarintvos10/MediaManager.Forms.dll",
-        "lib/xamarintvos10/MediaManager.Forms.pdb",
-        "lib/xamarintvos10/MediaManager.Forms.xml",
-        "plugin.mediamanager.forms.0.9.7.nupkg.sha512",
-        "plugin.mediamanager.forms.nuspec",
-        "readme.txt"
       ]
     },
     "VideoLAN.LibVLC.Android/3.2.0": {
@@ -2628,8 +2524,6 @@
       "LibVLCSharp.Forms >= 3.4.5",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10",
       "NETStandard.Library >= 2.0.3",
-      "Plugin.MediaManager >= 0.9.7",
-      "Plugin.MediaManager.Forms >= 0.9.7",
       "VideoLAN.LibVLC.Android >= 3.2.0",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.6.0.772"
@@ -2692,14 +2586,6 @@
           "NETStandard.Library": {
             "target": "Package",
             "version": "[2.0.3, )"
-          },
-          "Plugin.MediaManager": {
-            "target": "Package",
-            "version": "[0.9.7, )"
-          },
-          "Plugin.MediaManager.Forms": {
-            "target": "Package",
-            "version": "[0.9.7, )"
           },
           "VideoLAN.LibVLC.Android": {
             "target": "Package",
